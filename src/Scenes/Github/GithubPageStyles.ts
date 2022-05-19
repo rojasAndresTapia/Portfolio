@@ -1,0 +1,37 @@
+import { css, SerializedStyles } from '@emotion/react';
+
+export const getMainStyles = (): SerializedStyles =>
+  css({
+    display: 'flex',
+    flexDirection: 'column',
+    justifyContent: 'center',
+    alignItems: 'center',
+    maxWidth: '80%',
+    margin: 'auto',
+    paddingTop: '7vh',
+    paddingBottom: '7vh',
+    fontFamily: 'Montserrat, sans-serif',
+    p: {
+      fontSize: '1em',
+      color: '#45434C',
+      fontWeight: 500,
+      letterSpacing: '2px',
+      marginBottom: 0,
+      lineHeight: '1.5em',
+    },
+    h2: {
+      fontSize: '2em',
+      letterSpacing: '2px',
+      fontWeight: 700,
+      marginTop: 0,
+    },
+  });
+
+export const getButtonStyles = (): SerializedStyles =>
+  css({
+    display: 'flex',
+    justifyContent: 'flex-end',
+    maxWidth: '80%',
+    margin: 'auto',
+    paddingBottom: '7vh',
+  });
