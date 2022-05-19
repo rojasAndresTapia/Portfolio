@@ -24,6 +24,9 @@ export const getHeaderStyles = (): SerializedStyles =>
 
 export const getMainStyles = (): SerializedStyles =>
   css({
+    header: {
+      backgroundImage: 'url("src/assets/github-background-black.jpg")',
+    },
     display: 'flex',
     flexDirection: 'column',
     justifyContent: 'center',
@@ -47,13 +50,4 @@ export const getMainStyles = (): SerializedStyles =>
       fontWeight: 700,
       marginTop: 0,
     },
-  });
-
-export const getButtonStyles = (): SerializedStyles =>
-  css({
-    display: 'flex',
-    justifyContent: 'flex-end',
-    maxWidth: '80%',
-    margin: 'auto',
-    paddingBottom: '7vh',
   });

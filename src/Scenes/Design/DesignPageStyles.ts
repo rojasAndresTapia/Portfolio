@@ -48,12 +48,3 @@ export const getMainStyles = (): SerializedStyles =>
       marginTop: 0,
     },
   });
-
-export const getButtonStyles = (): SerializedStyles =>
-  css({
-    display: 'flex',
-    justifyContent: 'flex-end',
-    maxWidth: '80%',
-    margin: 'auto',
-    paddingBottom: '7vh',
-  });

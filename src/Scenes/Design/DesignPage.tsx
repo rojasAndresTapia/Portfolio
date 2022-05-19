@@ -1,9 +1,15 @@
 import React from 'react';
+import { getHeaderStyles, getMainStyles } from './DesignPageStyles';
 
 export const DesignPage: React.FC = () => {
   return (
-    <div>
-      <h1>Design page</h1>
-    </div>
+    <>
+      <header css={getHeaderStyles}>
+        <h2>DESIGN</h2>
+      </header>
+      <main css={getMainStyles}>
+        <p>Here you can find some of my work</p>
+      </main>
+    </>
   );
 };

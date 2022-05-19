@@ -1,14 +1,18 @@
 import React from 'react';
-import { getButtonStyles, getMainStyles } from '../Github/GithubPageStyles';
+import {
+  getButtonStyles,
+  getHeaderStyles,
+  getMainStyles,
+} from '../Github/GithubPageStyles';
 import Button from '@mui/material/Button';
 
 export const GithubPage: React.FC = () => {
   return (
     <>
+      <header css={getHeaderStyles}>
+        <h2>GITHUB</h2>
+      </header>
       <main css={getMainStyles}>
-        <header>
-          <h2>GITHUB</h2>
-        </header>
         <p>
           Below is the button that will direct you to my Github repository,
           where little by little I am uploading exercises from my Bootcamp, as
@@ -16,7 +20,14 @@ export const GithubPage: React.FC = () => {
         </p>
       </main>
       <div css={getButtonStyles}>
-        <Button variant='outlined'>Github</Button>
+        <Button
+          onClick={() =>
+            window.open('https://github.com/rojasAndresTapia', '_blank')
+          }
+          variant='outlined'
+        >
+          Github
+        </Button>
       </div>
     </>
   );

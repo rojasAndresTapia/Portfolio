@@ -48,6 +48,8 @@ export const getCategoriesStyles = (categoryName: string): SerializedStyles =>
     }),
     transition: '0.5s',
     h3: {
+      fontFamily: 'Montserrat, sans-serif',
       fontSize: '2em',
+      fontWeight: 500,
     },
   });
