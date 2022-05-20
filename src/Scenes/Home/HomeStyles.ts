@@ -13,7 +13,7 @@ export const getHeaderStyles = (): SerializedStyles =>
     justifyContent: 'center',
     alignItems: 'center',
     ':hover': {
-      backgroundImage: 'url("src/assets/Profile-image-background.png")',
+      backgroundImage: 'url("src/assets/Header-background-image.png")',
       backgroundRepeat: 'no-repeat',
       backgroundSize: 'cover',
     },

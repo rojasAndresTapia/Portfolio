@@ -8,7 +8,8 @@
     "type-check": "tsc --noEmit",
     "type-check:watch": "npm run type-check -- --watch",
     "start:dev": "webpack-dev-server --mode development --open",
-    "build": "rimraf dist && webpack --mode development"
+    "build": "rimraf dist && webpack --mode development",
+    "deploy": "gh-pages -d dist"
   },
   "author": "",
   "license": "ISC",
@@ -23,6 +24,7 @@
     "babel-loader": "^8.2.5",
     "css-loader": "^6.7.1",
     "file-loader": "^6.0.0",
+    "gh-pages": "^4.0.0",
     "html-loader": "^1.1.0",
     "html-webpack-plugin": "^4.2.1",
     "json-loader": "^0.5.7",
