@@ -42,6 +42,6 @@ module.exports = {
     new CleanWebpackPlugin(),
   ],
   stats: {
-    errors: true,
+    errorDetails: true,
   },
 };
