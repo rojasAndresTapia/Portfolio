@@ -50,7 +50,7 @@ export const NavBar: React.FC = () => {
         <Toolbar disableGutters>
           <a href='/'>
             <img
-              src='../../asset/logo-Andres-white.png'
+              src='../../assets/logo-Andres-white.png'
               css={getHeaderLogoStyles}
             />
           </a>
@@ -115,7 +115,7 @@ export const NavBar: React.FC = () => {
               <IconButton onClick={handleOpenUserMenu} sx={{ p: 0 }}>
                 <Avatar
                   alt='Andrés Rojas Tapia'
-                  src='src/asset/profile-photo.png'
+                  src='../../assets/profile-photo.png'
                 />
               </IconButton>
             </Tooltip>
