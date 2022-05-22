@@ -1,11 +1,11 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import { ContactPage } from '../../Scenes/Contact/ContactPage';
-import { DesignPage } from '../../Scenes/Design/DesignPage';
-import { GithubPage } from '../../Scenes/Github/GihubPage';
-import { Home } from '../../Scenes/Home/Home';
-import { VideoPage } from '../../Scenes/Video/VideoPage';
-import { WordpressPage } from '../../Scenes/Wordpress/WordpressPage';
+import { ContactPage } from '../../scenes/Contact/ContactPage';
+import { DesignPage } from '../../scenes/Design/DesignPage';
+import { GithubPage } from '../../scenes/Github/GihubPage';
+import { Home } from '../../scenes/Home/Home';
+import { VideoPage } from '../../scenes/Video/VideoPage';
+import { WordpressPage } from '../../scenes/Wordpress/WordpressPage';
 import { NavBar } from '../NavBar/NavBar';
 import { Footer } from '../Footer/Footer';
 import { Categories } from '../Categories/Categories';

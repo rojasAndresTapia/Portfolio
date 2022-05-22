@@ -4,7 +4,7 @@ export const getHeaderStyles = (): SerializedStyles =>
   css({
     fontFamily: 'Montserrat, sans-serif',
     height: '75vh',
-    backgroundImage: 'url("src/assets/header-background.png")',
+    backgroundImage: 'url("src/asset/header-background.png")',
     backgroundRepeat: 'no-repeat',
     backgroundSize: 'cover',
     margin: 0,
@@ -13,7 +13,7 @@ export const getHeaderStyles = (): SerializedStyles =>
     justifyContent: 'center',
     alignItems: 'center',
     ':hover': {
-      backgroundImage: 'url("src/assets/Header-background-image.png")',
+      backgroundImage: 'url("src/asset/Header-background-image.png")',
       backgroundRepeat: 'no-repeat',
       backgroundSize: 'cover',
     },

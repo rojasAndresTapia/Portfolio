@@ -2,7 +2,7 @@ import { css, SerializedStyles } from '@emotion/react';
 
 export const getHeaderStyles = (): SerializedStyles =>
   css({
-    backgroundImage: 'url("src/assets/video-background-black.jpg")',
+    backgroundImage: 'url("src/asset/video-background-black.jpg")',
     backgroundRepeat: 'no-repeat',
     backgroundSize: 'cover',
     margin: 0,
@@ -25,7 +25,7 @@ export const getHeaderStyles = (): SerializedStyles =>
 export const getMainStyles = (): SerializedStyles =>
   css({
     header: {
-      backgroundImage: 'url("src/assets/github-background-black.jpg")',
+      backgroundImage: 'url("src/asset/github-background-black.jpg")',
     },
     display: 'flex',
     flexDirection: 'column',

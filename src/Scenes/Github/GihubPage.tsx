@@ -3,7 +3,7 @@ import {
   getButtonStyles,
   getHeaderStyles,
   getMainStyles,
-} from '../Github/GithubPageStyles';
+} from './GithubPageStyles';
 import Button from '@mui/material/Button';
 
 export const GithubPage: React.FC = () => {

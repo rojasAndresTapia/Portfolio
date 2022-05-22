@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { generatePath, Link, useNavigate } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 
 import AppBar from '@mui/material/AppBar';
 import Box from '@mui/material/Box';
@@ -50,7 +50,7 @@ export const NavBar: React.FC = () => {
         <Toolbar disableGutters>
           <a href='/'>
             <img
-              src='../../assets/logo-Andres-white.png'
+              src='../../asset/logo-Andres-white.png'
               css={getHeaderLogoStyles}
             />
           </a>
@@ -115,7 +115,7 @@ export const NavBar: React.FC = () => {
               <IconButton onClick={handleOpenUserMenu} sx={{ p: 0 }}>
                 <Avatar
                   alt='Andrés Rojas Tapia'
-                  src='src/assets/profile-photo.png'
+                  src='src/asset/profile-photo.png'
                 />
               </IconButton>
             </Tooltip>

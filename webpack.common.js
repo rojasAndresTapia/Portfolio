@@ -1,17 +1,16 @@
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 const path = require('path');
+const basePath = __dirname;
 
 module.exports = {
-  context: path.resolve(__dirname, './src'),
+  context: path.join(basePath, 'src'),
   resolve: {
     extensions: ['.jsx', '.js', '.ts', '.tsx', '.css'],
   },
   entry: {
     app: ['./index.tsx'],
   },
-  devtool: 'eval-source-map',
-  stats: 'errors-only',
   output: {
     filename: '[name].[chunkhash].js',
     path: path.resolve(__dirname, 'dist'),
@@ -43,8 +42,6 @@ module.exports = {
       template: 'index.html', //Name of template in ./src
       scriptLoading: 'blocking', // Load the scripts correctly
     }),
-    new CleanWebpackPlugin({
-      cleanOnceBeforeBuildPatterns: ['./js/build/*', './css/build/*'],
-    }),
+    new CleanWebpackPlugin(),
   ],
 };
