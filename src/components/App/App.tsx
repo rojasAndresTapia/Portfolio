@@ -13,7 +13,7 @@ import { Categories } from '../Categories/Categories';
 export const App: React.FC = () => {
   return (
     <BrowserRouter>
-      <NavBar></NavBar>
+      <NavBar />
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/Github' element={<GithubPage />} />
@@ -22,8 +22,8 @@ export const App: React.FC = () => {
         <Route path='/Video' element={<VideoPage />} />
         <Route path='/Contact' element={<ContactPage />} />
       </Routes>
-      <Categories></Categories>
-      <Footer></Footer>
+      <Categories />
+      <Footer />
     </BrowserRouter>
   );
 };

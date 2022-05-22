@@ -1,7 +1,18 @@
 import React from 'react';
+import axios from 'axios';
+
+import { IWorksProps } from '../utils/interfaceWorks';
 import { getHeaderStyles, getMainStyles } from './VideoPageStyles';
 
 export const VideoPage: React.FC = () => {
+  const [videoWorks, setVideoWorks] = React.useState<IWorksProps[]>([]);
+
+  React.useEffect(() => {
+    axios.get('src/Models/works.json').then((res) => {
+      const filterData = res.data.filter((obj) => obj.category === 'video');
+      setVideoWorks(filterData);
+    });
+  }, []);
   return (
     <>
       <header css={getHeaderStyles}>

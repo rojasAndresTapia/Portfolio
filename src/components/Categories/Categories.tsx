@@ -1,7 +1,7 @@
 import React from 'react';
 import axios from 'axios';
 import { getCategoriesStyles, getSectionStyles } from './CategoriesStyles';
-import { useNavigate } from 'react-router-dom';
+// import { useNavigate } from 'react-router-dom';
 
 export const Categories: React.FC = () => {
   interface Categories {
@@ -12,19 +12,18 @@ export const Categories: React.FC = () => {
   }
 
   const [categories, setCategories] = React.useState<Categories[]>([]);
-  const navigate = useNavigate();
+  // const navigate = useNavigate();
 
   React.useEffect(() => {
-    axios.get('src/Models/categories.json').then((res) => {
+    axios.get('../../api/Data/categories.json').then((res) => {
       setCategories(res.data);
-      console.log(categories);
     });
   }, []);
 
-  const handleOnclick = () => {
-    const path = '/Design';
-    navigate(path);
-  };
+  // const handleOnclick = () => {
+  //   const path = '/Design';
+  //   navigate(path);
+  // };
 
   return (
     <section css={getSectionStyles}>
@@ -34,7 +33,6 @@ export const Categories: React.FC = () => {
           key={index}
           id={category.name}
           css={getCategoriesStyles(category.name)}
-          onClick={handleOnclick}
         >
           <h3>{category.name}</h3>
         </a>

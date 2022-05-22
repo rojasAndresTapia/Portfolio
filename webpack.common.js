@@ -1,9 +1,9 @@
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 const path = require('path');
-const basePath = __dirname;
 
 module.exports = {
-  context: path.join(basePath, 'src'),
+  context: path.resolve(__dirname, './src'),
   resolve: {
     extensions: ['.jsx', '.js', '.ts', '.tsx', '.css'],
   },
@@ -14,6 +14,7 @@ module.exports = {
   stats: 'errors-only',
   output: {
     filename: '[name].[chunkhash].js',
+    path: path.resolve(__dirname, 'dist'),
   },
   devServer: {
     historyApiFallback: true,
@@ -26,17 +27,12 @@ module.exports = {
         loader: 'babel-loader',
       },
       {
-        test: /\.(png|jpg|jpeg)$/,
-        exclude: /node_modules/,
-        loader: 'url-loader?limit=5000',
+        test: /\.(png|jpg)$/,
+        type: 'asset/resource',
       },
       {
         test: /\.html$/,
         loader: 'html-loader',
-      },
-      {
-        test: /\.css$/i,
-        use: ['style-loader', 'css-loader'],
       },
     ],
   },
@@ -45,6 +41,10 @@ module.exports = {
     new HtmlWebpackPlugin({
       filename: 'index.html', //Name of file in ./dist/
       template: 'index.html', //Name of template in ./src
+      scriptLoading: 'blocking', // Load the scripts correctly
+    }),
+    new CleanWebpackPlugin({
+      cleanOnceBeforeBuildPatterns: ['./js/build/*', './css/build/*'],
     }),
   ],
 };

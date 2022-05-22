@@ -1,0 +1,122 @@
+[
+  {
+    "name": "Taktics",
+    "image": "src/assets/taktics.jpg",
+    "url": "https://taktics.net/",
+    "category": "wordpress"
+  },
+  {
+    "name": "Imotics",
+    "image": "src/assets/imotics.jpg",
+    "url": "https://imotics.net/",
+    "category": "wordpress"
+  },
+  {
+    "name": "Eureka",
+    "image": "src/assets/eureka.jpg",
+    "url": "https://eurekacloud.es/",
+    "category": "wordpress"
+  },
+  {
+    "name": "Dinatec",
+    "image": "src/assets/dinatec.jpg",
+    "url": "https://dinatec.net/",
+    "category": "wordpress"
+  },
+  {
+    "name": "Adleragro",
+    "image": "src/assets/adleragro.jpg",
+    "url": "https://adleragro.com/",
+    "category": "wordpress"
+  },
+  {
+    "name": "Handisport",
+    "image": "src/assets/handisport.jpg",
+    "url": "https://handisportmallorca.org/",
+    "category": "wordpress"
+  },
+  {
+    "name": "El jardinero fiel",
+    "image": "src/assets/jardinerofiel.jpg",
+    "url": "https://jardinerofiel.es/",
+    "category": "wordpress"
+  },
+  {
+    "name": "Taktics",
+    "image": "src/assets/taktics.jpg",
+    "url": "https://taktics.net/",
+    "category": "design"
+  },
+  {
+    "name": "Imotics",
+    "image": "src/assets/imotics.jpg",
+    "url": "https://imotics.net/",
+    "category": "design"
+  },
+  {
+    "name": "Eureka",
+    "image": "src/assets/eureka.jpg",
+    "url": "https://eurekacloud.es/",
+    "category": "design"
+  },
+  {
+    "name": "Dinatec",
+    "image": "src/assets/dinatec.jpg",
+    "url": "https://dinatec.net/",
+    "category": "design"
+  },
+  {
+    "name": "Adleragro",
+    "image": "src/assets/adleragro.jpg",
+    "url": "https://adleragro.com/",
+    "category": "design"
+  },
+  {
+    "name": "Taktics",
+    "image": "src/assets/taktics.jpg",
+    "url": "https://taktics.net/",
+    "category": "design"
+  },
+  {
+    "name": "Taktics",
+    "image": "src/assets/taktics.jpg",
+    "url": "https://taktics.net/",
+    "category": "design"
+  },
+  {
+    "name": "Imotics",
+    "image": "src/assets/imotics.jpg",
+    "url": "https://imotics.net/",
+    "category": "video"
+  },
+  {
+    "name": "Eureka",
+    "image": "src/assets/eureka.jpg",
+    "url": "https://eurekacloud.es/",
+    "category": "video"
+  },
+  {
+    "name": "Dinatec",
+    "image": "src/assets/dinatec.jpg",
+    "url": "https://dinatec.net/",
+    "category": "video"
+  },
+  {
+    "name": "Adleragro",
+    "image": "src/assets/adleragro.jpg",
+    "url": "https://adleragro.com/",
+    "category": "video"
+  },
+  {
+    "name": "Taktics",
+    "image": "src/assets/taktics.jpg",
+    "url": "https://taktics.net/",
+    "category": "video"
+  },
+  {
+    "name": "Taktics",
+    "image": "src/assets/taktics.jpg",
+    "url": "https://taktics.net/",
+    "category": "video"
+  }
+]

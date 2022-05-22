@@ -1,5 +1,5 @@
 {
-  "name": "to-do-test",
+  "name": "portfolio",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -7,8 +7,9 @@
     "start": "run-p -l type-check:watch start:dev",
     "type-check": "tsc --noEmit",
     "type-check:watch": "npm run type-check -- --watch",
-    "start:dev": "webpack-dev-server --mode development --open",
-    "build": "rimraf dist && webpack --mode development",
+    "start:dev": "webpack serve --config webpack.dev.js",
+    "build:dev": "webpack --config webpack.dev.js",
+    "build:prod": "webpack --config webpack.prod.js",
     "deploy": "gh-pages -d dist"
   },
   "author": "",
@@ -26,17 +27,19 @@
     "file-loader": "^6.0.0",
     "gh-pages": "^4.0.0",
     "html-loader": "^1.1.0",
-    "html-webpack-plugin": "^4.2.1",
+    "html-webpack-plugin": "^5.5.0",
     "json-loader": "^0.5.7",
+    "mini-css-extract-plugin": "^2.6.0",
     "npm-run-all": "^4.1.5",
     "rimraf": "^3.0.2",
     "sass": "^1.51.0",
     "sass-loader": "^12.6.0",
     "typescript": "^3.8.3",
     "url-loader": "^4.1.0",
-    "webpack": "^4.46.0",
-    "webpack-cli": "^3.3.11",
-    "webpack-dev-server": "^3.10.3"
+    "webpack": "^5.72.1",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.9.0",
+    "webpack-merge": "^5.8.0"
   },
   "dependencies": {
     "@emotion/babel-preset-css-prop": "^11.2.0",
@@ -45,6 +48,7 @@
     "@mui/icons-material": "^5.6.2",
     "@mui/material": "^5.7.0",
     "axios": "^0.27.2",
+    "clean-webpack-plugin": "^4.0.0",
     "react": "^16.14.0",
     "react-dom": "^16.14.0",
     "react-router-dom": "^6.3.0"

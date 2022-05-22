@@ -50,7 +50,7 @@ export const NavBar: React.FC = () => {
         <Toolbar disableGutters>
           <a href='/'>
             <img
-              src='src/assets/logo-Andres-white.png'
+              src='../../assets/logo-Andres-white.png'
               css={getHeaderLogoStyles}
             />
           </a>
@@ -96,12 +96,7 @@ export const NavBar: React.FC = () => {
               ))}
             </Menu>
           </Box>
-          <a href='/'>
-            <img
-              src='src/assets/logo-Andres-white.png'
-              css={getHeaderLogoStyles}
-            />
-          </a>
+
           <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
             {pages.map((page) => (
               <Button
