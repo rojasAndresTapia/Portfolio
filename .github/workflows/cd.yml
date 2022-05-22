@@ -23,6 +23,6 @@ jobs:
       - name: Install
         run: npm ci
       - name: Build
-        run: npm run build
+        run: npm run build:prod
       - name: Deploy
         run: npm run deploy -- -r git@github.com:rojasAndresTapia/Portfolio.git
