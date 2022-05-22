@@ -4,7 +4,7 @@ const path = require('path');
 const basePath = __dirname;
 
 module.exports = {
-  context: path.join(basePath, 'src'),
+  context: path.join(basePath, './src'),
   resolve: {
     extensions: ['.jsx', '.js', '.ts', '.tsx', '.css'],
   },
