@@ -15,12 +15,12 @@ export const App: React.FC = () => {
     <BrowserRouter>
       <NavBar />
       <Routes>
-        <Route path='./' element={<Home />} />
-        <Route path='./Github' element={<GithubPage />} />
-        <Route path='./Design' element={<DesignPage />} />
-        <Route path='./Wordpress' element={<WordpressPage />} />
-        <Route path='./Video' element={<VideoPage />} />
-        <Route path='./Contact' element={<ContactPage />} />
+        <Route path='/' element={<Home />} />
+        <Route path='/Github' element={<GithubPage />} />
+        <Route path='/Design' element={<DesignPage />} />
+        <Route path='/Wordpress' element={<WordpressPage />} />
+        <Route path='/Video' element={<VideoPage />} />
+        <Route path='/Contact' element={<ContactPage />} />
       </Routes>
       <Categories />
       <Footer />
