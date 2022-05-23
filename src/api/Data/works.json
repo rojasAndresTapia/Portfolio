@@ -36,87 +36,75 @@
     "category": "wordpress"
   },
   {
+    "name": "Labs4opss - Ayuda en Acción",
+    "image": "../../assets/labs4opps-web.jpg",
+    "url": "http://www.labs4opps.com/",
+    "category": "wordpress"
+  },
+  {
     "name": "El jardinero fiel",
     "image": "../../assets/jardinerofiel.jpg",
     "url": "https://jardinerofiel.es/",
     "category": "wordpress"
   },
   {
+    "name": "Chilewines Catalog",
+    "image": "../../assets/Chilewines-catalogo.jpg",
+    "url": "",
+    "category": "design"
+  },
+  {
+    "name": "Chilewines cards",
+    "image": "../../assets/Chilewines-tarjetas.jpg",
+    "url": "",
+    "category": "design"
+  },
+  {
+    "name": "Primary school book",
+    "image": "../../assets/libro-educación-1.jpg",
+    "url": "",
+    "category": "design"
+  },
+  {
+    "name": "Intervention model - Ayuda en acción",
+    "image": "../../assets/modelo-de-intervencion.jpg",
+    "url": "",
+    "category": "design"
+  },
+  {
+    "name": "Emilio Innobar drinks menu",
+    "image": "../../assets/Menu-emilio.jpg",
+    "url": "",
+    "category": "design"
+  },
+  {
     "name": "Taktics",
     "image": "../../assets/taktics.jpg",
     "url": "https://taktics.net/",
     "category": "design"
+  },
+  {
+    "name": "Taktics",
+    "image": "../../assets/taktics.jpg",
+    "url": "https://taktics.net/",
+    "category": "design"
+  },
+  {
+    "name": "Ayuda en Acción",
+    "image": "../../assets/edcamp.jpg",
+    "url": "https://youtu.be/VIRC-KtpRVU",
+    "category": "video"
+  },
+  {
+    "name": "Instaladores de éxito",
+    "image": "../../assets/instaladores-de-exito.jpg",
+    "url": "https://youtu.be/paIxoAeI220",
+    "category": "video"
   },
   {
     "name": "Imotics",
-    "image": "../../assets/imotics.jpg",
-    "url": "https://imotics.net/",
-    "category": "design"
-  },
-  {
-    "name": "Eureka",
-    "image": "../../assets/eureka.jpg",
-    "url": "https://eurekacloud.es/",
-    "category": "design"
-  },
-  {
-    "name": "Dinatec",
-    "image": "../../assets/dinatec.jpg",
-    "url": "https://dinatec.net/",
-    "category": "design"
-  },
-  {
-    "name": "Adleragro",
-    "image": "../../assets/adleragro.jpg",
-    "url": "https://adleragro.com/",
-    "category": "design"
-  },
-  {
-    "name": "Taktics",
-    "image": "../../assets/taktics.jpg",
-    "url": "https://taktics.net/",
-    "category": "design"
-  },
-  {
-    "name": "Taktics",
-    "image": "../../assets/taktics.jpg",
-    "url": "https://taktics.net/",
-    "category": "design"
-  },
-  {
-    "name": "Imotics",
-    "image": "../../assets/imotics.jpg",
-    "url": "https://imotics.net/",
-    "category": "video"
-  },
-  {
-    "name": "Eureka",
-    "image": "../../assets/eureka.jpg",
-    "url": "https://eurekacloud.es/",
-    "category": "video"
-  },
-  {
-    "name": "Dinatec",
-    "image": "../../assets/dinatec.jpg",
-    "url": "https://dinatec.net/",
-    "category": "video"
-  },
-  {
-    "name": "Adleragro",
-    "image": "../../assets/adleragro.jpg",
-    "url": "https://adleragro.com/",
-    "category": "video"
-  },
-  {
-    "name": "Taktics",
-    "image": "../../assets/taktics.jpg",
-    "url": "https://taktics.net/",
-    "category": "video"
-  },
-  {
-    "name": "Taktics",
-    "image": "../../assets/taktics.jpg",
-    "url": "https://taktics.net/",
+    "image": "../../assets/emotions-imotics.jpg",
+    "url": "https://youtu.be/MRzUj5o2oM0",
     "category": "video"
   }
 ]

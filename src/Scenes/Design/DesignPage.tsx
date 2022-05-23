@@ -13,7 +13,7 @@ export const DesignPage: React.FC = () => {
   const [designWorks, setDesignWorks] = React.useState<IWorksProps[]>([]);
 
   React.useEffect(() => {
-    axios.get('../..api/Data/works.json').then((res) => {
+    axios.get('../../api/Data/works.json').then((res) => {
       const filterData = res.data.filter((obj) => obj.category === 'design');
       setDesignWorks(filterData);
       console.log(filterData);
